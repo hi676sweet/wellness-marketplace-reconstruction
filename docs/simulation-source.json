@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "classification": "SYNTHETIC PLANNING DATA - NOT HISTORICAL GIT DATA",
+  "project": "Haven",
+  "prepared_on": "2026-11-10",
+  "source_file": "portfolio_daily_activity_simulation_2023_2026.xlsx",
+  "source_sha256": "2603bf41d899d5216e935309785acdd4b4748bccf722b1b5fd2e5161b621b9de",
+  "sheets_used": [
+    "Overview",
+    "Daily Plan",
+    "Commit Schedule",
+    "Monthly Roadmap",
+    "Repository Notes"
+  ],
+  "simulation_start": "2024-04-01",
+  "simulation_end": "2024-11-29",
+  "planned_weekdays": 175,
+  "synthetic_planned_slots": 1050,
+  "planned_slots_per_weekday": 6,
+  "status": "Synthetic plan",
+  "phase_days": {
+    "Architecture & scope": 18,
+    "Core data model": 26,
+    "Primary workflows": 42,
+    "Search & usability": 26,
+    "Integrity & security": 25,
+    "Regression testing": 21,
+    "Polish & documentation": 17
+  },
+  "work_areas": [
+    "catalog specification",
+    "basket state design",
+    "session ownership assumptions",
+    "fictional product fixtures",
+    "SQLite schema",
+    "commerce domain boundaries",
+    "checkout state machine",
+    "stock balances",
+    "order records",
+    "products and categories",
+    "product illustrations",
+    "catalog fixtures",
+    "price cents",
+    "order line snapshots",
+    "basket add/remove",
+    "order history",
+    "category filtering",
+    "catalog sorting",
+    "quantity updates",
+    "catalog browsing",
+    "demo checkout",
+    "keyword search",
+    "product details",
+    "shareable filters",
+    "basket totals",
+    "keyboard navigation",
+    "stock status labels",
+    "form feedback",
+    "responsive catalog",
+    "empty basket state",
+    "session locking",
+    "transaction rollback",
+    "session isolation",
+    "conditional stock decrement",
+    "idempotency keys",
+    "server-priced orders",
+    "stale basket validation",
+    "stock contention",
+    "invalid addresses",
+    "basket edge cases",
+    "out-of-stock handling",
+    "mobile purchase flow",
+    "replayed checkout",
+    "order snapshot tests",
+    "demo instructions",
+    "error messaging",
+    "CI checks",
+    "catalog illustrations",
+    "seed-data quality",
+    "release documentation",
+    "accessibility audit"
+  ],
+  "monthly_roadmap": [
+    {
+      "month": "2024-04",
+      "planned_weekdays": 22,
+      "synthetic_planned_slots": 132,
+      "topics": [
+        "catalog specification",
+        "basket state design",
+        "session ownership assumptions",
+        "fictional product fixtures"
+      ]
+    },
+    {
+      "month": "2024-05",
+      "planned_weekdays": 23,
+      "synthetic_planned_slots": 138,
+      "topics": [
+        "products and categories",
+        "product illustrations",
+        "catalog fixtures",
+        "price cents"
+      ]
+    },
+    {
+      "month": "2024-06",
+      "planned_weekdays": 20,
+      "synthetic_planned_slots": 120,
+      "topics": [
+        "order history",
+        "category filtering",
+        "basket add/remove",
+        "catalog sorting"
+      ]
+    },
+    {
+      "month": "2024-07",
+      "planned_weekdays": 23,
+      "synthetic_planned_slots": 138,
+      "topics": [
+        "order history",
+        "category filtering",
+        "basket add/remove",
+        "quantity updates"
+      ]
+    },
+    {
+      "month": "2024-08",
+      "planned_weekdays": 22,
+      "synthetic_planned_slots": 132,
+      "topics": [
+        "keyboard navigation",
+        "stock status labels",
+        "form feedback",
+        "responsive catalog"
+      ]
+    },
+    {
+      "month": "2024-09",
+      "planned_weekdays": 21,
+      "synthetic_planned_slots": 126,
+      "topics": [
+        "form feedback",
+        "responsive catalog",
+        "session locking",
+        "transaction rollback"
+      ]
+    },
+    {
+      "month": "2024-10",
+      "planned_weekdays": 23,
+      "synthetic_planned_slots": 138,
+      "topics": [
+        "transaction rollback",
+        "session isolation",
+        "conditional stock decrement",
+        "idempotency keys"
+      ]
+    },
+    {
+      "month": "2024-11",
+      "planned_weekdays": 21,
+      "synthetic_planned_slots": 126,
+      "topics": [
+        "mobile purchase flow",
+        "replayed checkout",
+        "order snapshot tests",
+        "stock contention"
+      ]
+    }
+  ],
+  "commit_timestamp_changes": false,
+  "historical_completion_claim": false
+}

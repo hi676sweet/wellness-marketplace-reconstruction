@@ -31,6 +31,10 @@ Haven's interface, sample catalog, and implementation were created independently
 
 No payment is collected, no email is sent, and nothing is shipped. Session access is a demonstration mechanism; this app does not include customer accounts or a production payment integration.
 
+## Workbook roadmap
+
+Read the [simulation roadmap and feature-to-source map](docs/simulation-roadmap.md) derived from `portfolio_daily_activity_simulation_2023_2026.xlsx`. Its dates and slot counts are hypothetical planning data. Commits retain their actual creation dates.
+
 ## Run locally
 
 Requirements: PHP 8.5 recommended (8.4.1 minimum for the locked dependencies), Composer 2, and the SQLite/PDO SQLite, mbstring, intl, DOM/XML, and fileinfo extensions. No Node build is needed.
