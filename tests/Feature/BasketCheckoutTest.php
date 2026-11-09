@@ -107,7 +107,7 @@ class BasketCheckoutTest extends TestCase
     {
         $this->post(route('checkout.store'), array_replace($this->checkoutData(), ['email' => 'shopper@example.com']))
             ->assertSessionHasErrors('email');
-        $this->post(route('checkout.store'),$this->checkoutData())->assertSessionHasErrors('cart');
-        $this->assertDatabaseCount('orders',0);
+        $this->post(route('checkout.store'), $this->checkoutData())->assertSessionHasErrors('cart');
+        $this->assertDatabaseCount('orders', 0);
     }
 }

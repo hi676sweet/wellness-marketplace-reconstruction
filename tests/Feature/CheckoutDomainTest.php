@@ -134,7 +134,7 @@ class CheckoutDomainTest extends TestCase
                 $this->assertNotEmpty($exception->errors());
             }
         }
-        $this->assertDatabaseCount('orders',0);
-        $this->assertSame(12,$product->refresh()->stock);
+        $this->assertDatabaseCount('orders', 0);
+        $this->assertSame(12, $product->refresh()->stock);
     }
 }

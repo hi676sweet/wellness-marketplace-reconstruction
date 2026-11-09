@@ -75,6 +75,6 @@ class CheckoutService
 
     private function previous(string $ownerToken, string $key): ?Order
     {
-        return Order::with('items')->where('owner_token', $ownerToken)->where('checkout_key',$key)->first();
+        return Order::with('items')->where('owner_token', $ownerToken)->where('checkout_key', $key)->first();
     }
 }
